@@ -1,0 +1,165 @@
+.footer-contaner {
+    background-color: #f0efef;
+    padding: 30px 50px;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #000000;
+  }
+
+
+  
+
+  .footer-contaner .box1 {
+    width: 25%;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+  .logo1{
+    width: 200px;
+  }
+
+  .footer-contaner .box2 {
+    width: 20%;
+    padding-top: 30px;
+    border-left: 1px solid rgba(204, 121, 121, 0.253);
+    padding-left: 10px;
+  }
+
+  .footer-contaner .box3 {
+    border-left: 1px solid rgba(245, 243, 243, 0.096);
+    width: 20%;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+
+  .footer-contaner .box4 {
+    border-left: 1px solid rgba(243, 242, 242, 0.096);
+    width: 25%;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+
+  .footer-contaner .fbox .socal i {
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  .footer-contaner .fbox .socal i:hover {
+    color: rgb(0, 0, 0);
+  }
+  .footer-contaner .box1 .logo {
+    width: 50%;
+  }
+
+  .footer-contaner .box1 .sm {
+    margin: 20px 0;
+  }
+
+  .footer-contaner .fbox h4 {
+    margin: 20px 0;
+    font-size: 18px;
+    color: black;
+  }
+
+  .footer-contaner .fbox ul li {
+    margin: 10px 0;
+  }
+
+  .footer-contaner .fbox .con li {
+    display: flex;
+    margin: 20px 0;
+    color: rgb(0, 0, 0);
+  }
+
+  .ico-contaner {
+    margin-right: 20px;
+  }
+
+  .ico {
+    width: 15px;
+  }
+
+  .footer-contaner .fbox li a {
+    color: rgb(0, 0, 0);
+    word-break: break-word;
+  }
+
+  .footer-contaner .fbox form {
+    width: 80%;
+    height: 50px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+  }
+
+  .footer-contaner .fbox form input {
+    width: 80%;
+    height: 100%;
+
+  }
+  .footer-contaner .fbox form button{
+    border: none;
+
+  }
+
+  .footer-contaner .fbox form span {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00b9d3;
+    color: white;
+    float: inline-start;
+    font-size: 15px;
+  }
+
+  .footer-contaner .fbox form span:hover {
+    background: #0060ad;
+  }
+
+  .footer-contaner .fbox input {
+    width: 80%;
+    height: 50px;
+    outline: none;
+
+    border: none;
+  }
+
+  .solutions {
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  
+
+  @media (max-width:850px) {
+    .footer-contaner .fbox form {
+      width: 100%;
+
+    }
+
+    .footer-contaner .fbox {
+      width: 40%;
+    }
+  }
+
+  @media (max-width:550px) {
+
+    .footer-contaner .fbox {
+      width: 100%;
+    }
+
+    .footer-contaner {
+      padding: 25px 15px;
+    }
+
+    .footer-contaner .fbox form {
+      width: 90%;
+
+    }
+  }
