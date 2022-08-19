@@ -1,11 +1,14 @@
+import React from "react";
 function Response(props) {
 
 
     return (
       <>
-        <input type={props.data.type} name={props.data.value} id={props.data.id}></input>
-        <label for={props.data.id} >
-          <li>{props.data.label}</li></label>
+        <div class = "form-radio">
+        <input class= "form-radio-input" type={props.data.type} name={props.data.value} id={props.data.id}></input>
+        <label class= "form-radio-input" for={props.data.id} >
+          {props.data.label}</label>
+        </div>
       </>
     )
   }

@@ -1,3 +1,4 @@
+import React from 'react';
 import './navbar.css'
 import './navbarevents.js'
 
@@ -197,9 +198,7 @@ function NavBar() {
               </ul>
 
             </div>
-            <div className="bar">
-              <i id="menue" className="fa-solid fa-bars"></i>
-            </div>
+           
           </nav>
         </div>
       </header>

@@ -1,9 +1,10 @@
+import React from 'react';
 import './footer.css'
 
 function Footer () {
 return (
     <>
-    <div id= 'footer'>
+    <div id= 'footer.col-sm-540px'>
 <footer>
     <div className="footer-contaner">
       <div className="fbox box1">

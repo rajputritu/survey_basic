@@ -1,3 +1,4 @@
+import React from 'react';
 import ResponseCheck from './response_chk'
 
 function QuestionCheck({data}) {
